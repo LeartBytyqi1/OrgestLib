@@ -2,9 +2,9 @@ Pod::Spec.new do |spec|
     spec.name                     = 'OrgestLib'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :http=> ''}
+    spec.source        = { :git => "https://github.com/LeartBytyqi1/OrgestLib.git", :tag => "#{spec.version}" }
     spec.authors                  = ''
-    spec.license                  = ''
+    spec.license      = { :type => "MIT", :file => "LICENSE" }
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'build/cocoapods/framework/OrgestLib.framework'
     spec.libraries                = 'c++'
