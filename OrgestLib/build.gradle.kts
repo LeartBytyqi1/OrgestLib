@@ -15,9 +15,17 @@ kotlin {
         homepage = "Link to the Shared Module homepage"
         version = "1.0"
         ios.deploymentTarget = "14.0"
+        name = "OrgestLib"
+
         framework {
             baseName = "OrgestLib"
+
+            isStatic = false
         }
+
+        xcodeConfigurationToNativeBuildType["CUSTOM_DEBUG"] = org.jetbrains.kotlin.gradle.plugin.mpp.NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["CUSTOM_RELEASE"] = org.jetbrains.kotlin.gradle.plugin.mpp.NativeBuildType.RELEASE
+
     }
     
     sourceSets {
