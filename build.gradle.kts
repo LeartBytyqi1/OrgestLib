@@ -1,6 +1,7 @@
 plugins {
     //trick: for the same plugin versions in all sub-modules
     id("com.android.library").version("7.3.0").apply(false)
+    id("com.chromaticnoise.multiplatform-swiftpackage") version "2.0.3"
     kotlin("multiplatform").version("1.7.10").apply(false)
 }
 

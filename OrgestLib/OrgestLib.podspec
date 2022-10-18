@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'OrgestLib'
-    spec.version                  = '1.6'
+    spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-     spec.source        = { :git => "https://github.com/LeartBytyqi1/OrgestLib.git", :tag => "#{spec.version}" }
+    spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
