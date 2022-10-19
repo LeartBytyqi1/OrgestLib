@@ -3,8 +3,8 @@ Pod::Spec.new do |spec|
     spec.version                  = '1.2'
     spec.homepage                 = 'Link to the Shared Module homepage'
     spec.source                   = { :git => 'https://github.com/LeartBytyqi1/OrgestLib.git'}
-    spec.authors                  = ''
-    spec.license                  = ''
+    spec.authors                  = 'Leart Bytyqi'
+    spec.license                  = '../LICENSE'
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'build/bin/iosX64/podReleaseFramework/OrgestLib.framework'
     spec.libraries                = 'c++'
