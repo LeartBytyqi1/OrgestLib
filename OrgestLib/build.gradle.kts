@@ -6,9 +6,15 @@ plugins {
 
 kotlin {
     android()
-    iosX64()
     iosArm64()
     iosSimulatorArm64()
+    iosX64{
+        binaries{
+            framework {
+                baseName = "OrgestLib"
+            }
+        }
+    }
 
     cocoapods {
         summary = "Some description for the Shared Module"
